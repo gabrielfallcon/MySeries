@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../../components/Header'
 
 import './styles.css'
@@ -8,11 +9,11 @@ const Home = () => {
         <div>
             <Header />
             <div className='content-pgt'>
-                <h2>PELO QUE VOÊCE PROCURA?</h2>
                 <div className='btns'>
                     <button className='btn1 btnn'>SÉRIES</button>
                     <button className='btn2 btnn'>FILMES</button>
                 </div>
+                <Link to='/genres'><h5>GÊNEROS</h5></Link>
             </div>
         </div>
 
