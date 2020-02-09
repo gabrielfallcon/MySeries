@@ -3,7 +3,7 @@ import axios from 'axios'
 import { Link } from 'react-router-dom'
 
 import { Button } from 'reactstrap'
-import img from '../../assets/loader.gif'
+import img from '../../assets/gato.png'
 
 import Header from '../../components/Header'
 
