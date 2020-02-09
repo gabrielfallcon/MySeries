@@ -1,0 +1,28 @@
+.content-pgt {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-pgt h2 {
+    margin-bottom: 5%;
+}
+
+.btns {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnn {
+    padding: 15px;
+    width: 200px;
+    background-color: #3b3b3b;
+    color: #995;
+    font-weight: 800;
+    border: .4px solid #ddd;
+    border-radius: 50px;
+}
