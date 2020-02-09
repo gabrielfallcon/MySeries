@@ -40,7 +40,7 @@ const Geners = () => {
 
 
   return (
-    <>
+    <div>
       <Header />
       <div className='container'>
         <div className='row'>
@@ -64,7 +64,7 @@ const Geners = () => {
                       <th>{series.id}</th>
                       <td>{series.name}</td>
                       <td>
-                        <Button tag={Link} to={`/api/genres/${series.id}`} color='warning'>Editar</Button>
+                        <Link className='btn btn-warning' to={'genres/:' + series.id}>Editar</Link>
                         <Button className='ml-2' onClick={() => deleteGenres(series.id)} color='danger'>Excluir</Button>
                       </td>
                     </tr>
@@ -75,7 +75,7 @@ const Geners = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 export default Geners

@@ -13,8 +13,8 @@ const Routes = () => {
             <Switch>
                 <Route path='/' exact component={Home}/>
                 <Route path='/genres' exact component={Geners}/>
-                <Route path='/genres/newGenres'  component={FormNew}/>
-                <Route path='/genres/:id'  component={FormEdit}/>
+                <Route path='/genres/newGenres' exact component={FormNew}/>
+                <Route path='/genres/:id' exact component={FormEdit}/>
                 <Route component={NotFound}/>
             </Switch>
         </BrowserRouter>
